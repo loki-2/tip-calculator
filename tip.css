@@ -1,0 +1,81 @@
+.tipbox{
+    width: 461px;
+    height: 517px;
+    margin:auto;
+    margin-top: 30px;
+    background: #BDFFF6;
+    box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.25);
+    
+    border: 3px solid rgba(255, 255, 255, 0.356);
+    border-radius: 30px;
+}
+
+.rec1,.rec2{
+    width:100px;
+    height:3px;
+}
+.rec1{
+    background: linear-gradient(90deg, rgba(196, 196, 196, 0) 2.98%, #ED5A5A 100%);
+}
+.rec2{
+    background: linear-gradient(-90deg, rgba(196, 196, 196, 0) 2.98%, #ED5A5A 100%);
+}
+
+.container1{
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form-group{
+    padding: 0px 25px;
+    font-size:15px;
+    font-weight: 600;
+}
+.form-group label{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.form-group input, select{
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#calculate{
+    background: #ED5A5A;
+    border-radius: 8px;
+    font-weight: bold;
+    border-color: #ED5A5A;
+}
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+}
